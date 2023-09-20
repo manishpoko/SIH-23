@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .box {
+            width: 45%; /* Adjust the width of each box as needed */
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2ecc71;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h2>Box 1</h2>
+            <a href="#" class="button">Button 1</a>
+        </div>
+
+        <div class="box">
+            <h2>Box 2</h2>
+            <a href="#" class="button">Button 2</a>
+        </div>
+
+        <div class="box">
+            <h2>Box 3</h2>
+            <a href="#" class="button">Button 3</a>
+        </div>
+
+        <div class="box">
+            <h2>Box 4</h2>
+            <a href="#" class="button">Button 4</a>
+        </div>
+
+        <div class="box">
+            <h2>Box 5</h2>
+            <a href="#" class="button">Button 5</a>
+        </div>
+
+        <div class="box">
+            <h2>Box 6</h2>
+            <a href="#" class="button">Button 6</a>
+        </div>
+    </div>
+</body>
+</html>
